@@ -3,10 +3,6 @@
   text-underline-position: under;
 }
 
-.link {
-  text-decoration: none;
-}
-
 .address {
   font-style: normal;
   width: 241px;
@@ -63,6 +59,14 @@
   list-style-type: none;
 }
 
+.header__link {
+  font-size: 18px;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
 .header__logo {
   margin: auto;
 }
@@ -108,7 +112,7 @@
 }
 
 .cover__title {
-  font-family: Raleway;
+  font-family: Raleway, Arial, sans-serif;
   font-size: 100px;
   font-weight: 700;
   letter-spacing: .3em;
@@ -323,6 +327,14 @@
   text-align: center;
 }
 
+.footer__menu-link {
+  font-size: 18px;
+  line-height: normal;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
 .footer__social-list {
   display:flex;
   list-style: none;
